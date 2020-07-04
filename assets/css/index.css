@@ -188,7 +188,49 @@
 }
 
 .popup-intercom-body .card .card-body {
-  padding: 0px 20px 20px 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+.popup-intercom-body .card .card-body .list-group .list-group-item {
+  border: 0px;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.popup-intercom-body .card .card-body .list-group .list-group-item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.popup-intercom-body .card .card-body .list-group .list-group-item div {
+  padding-left: 10px;
+}
+
+.popup-intercom-body
+  .card
+  .card-body
+  .list-group
+  .list-group-item
+  div
+  .article-title {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px 0px 4px 0px;
+}
+
+.popup-intercom-body
+  .card
+  .card-body
+  .list-group
+  .list-group-item
+  div
+  .article-description {
+  font-size: 11px;
+  font-weight: 300;
+  color: #777;
 }
 
 .popup-intercom-body .card .card-footer {
@@ -228,7 +270,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #cfcfcf;
   border: 0px;
 }
 
@@ -257,7 +299,7 @@
   /* Popup Intercom */
   .popup-intercom {
     width: 372px;
-    height: 640px;
+    height: 80%;
     right: 35px;
     bottom: 80px;
   }
@@ -278,7 +320,7 @@
   /* Scrollbar */
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #cfcfcf;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
