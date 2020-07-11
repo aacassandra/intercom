@@ -1,9 +1,13 @@
 {
-  "name": "intercom-chat",
+  "name": "@aacassandra/intercom",
   "version": "0.0.1",
-  "description": "Intercom chat",
+  "description": "Intercom chat template",
   "author": "alauddinafifcassandra@programmer.net",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.1",
     "bootstrap": "^4.5.0",
